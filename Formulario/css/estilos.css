@@ -1,0 +1,44 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+/*ventana de errores*/
+
+.modal_wrap{
+
+	width: 100%;
+	height:100vh;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+} 
+
+.mensaje_modal h3:after{
+content: "";
+display: block;
+width: 100%;
+height: 1px;
+background: #C5C5C5;
+margin: 10px 0px 15px;
+
+
+}
+
+.confirm h3:after{
+content: "";
+display: block;
+width: 100%;
+height: 1px;
+background: #C5C5C5;
+margin: 10px 0px 15px;
+}
+
